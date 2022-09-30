@@ -1,0 +1,300 @@
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgb(26, 61, 26);
+    padding: 16px 0;
+}
+
+header h1 {
+    color: rgb(29, 15, 1);
+    font-size: 40px;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+nav {
+    background-color: rgb(8, 28, 8);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(80, 112, 80);
+}
+
+nav ul li a.activo {
+    background-color: rgb(80, 112, 80);
+}
+
+footer {
+    background-color: rgb(168, 149, 115);
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.holder {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(7, 37, 7);
+    font-weight: 400;
+}
+
+.home {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonio {
+    width: 25%;
+}
+
+.columnasHome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 {
+    margin-top: 45px;
+    padding-right: 0;
+}
+
+.home p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.testimonios {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonio {
+    border: 1px solid rgb(157, 130, 82);
+    padding: 16px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.testimonio .cita {
+    text-align: justify;
+    font-style: italic;
+    font-size: 18px;
+    display: table-row;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: left;
+    display: table-row;
+}
+
+.cultura p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    background-color: rgb(215, 193, 171);
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.persona:hover {
+    transform: scale(1.2);
+    background-color: rgb(132, 111, 90);
+}
+
+.persona img {
+    max-width: 60%;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(7, 33, 7);
+    text-align: center;
+}
+
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6 {
+    font-size: 12px;
+}
+
+.persona p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.servicio {
+    background-color: rgb(206, 234, 165);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio:hover {
+    transform: scale(1.1);
+}
+
+.servicio .info h4 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.servicio .info p {
+    font: 13px;
+}
+
+.servicio img {
+    border-radius: 5px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria img {
+    width: 18%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.galeria img:hover {
+    transform: scale(1.2);
+}
+
+.contacto {
+    display: flex;
+    grid-area: 24px;
+    flex-direction: column;
+}
+
+.contacto h2 {
+    padding-bottom: 20px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 100px;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: flex-start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+}
+
+.formulario input {
+    padding: 2px;
+    width: 100%;
+}
+
+.formulario input[type="button"] {
+    background-color: rgb(99, 138, 68);
+    color: white;
+    font-size: 16px;
+    border: 0px solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 10%;
+    position: relative;
+    left: 10%;
+}
+
+.formulario input[type="button"]:hover {
+    background-color: rgb(33, 50, 33);
+    transform: scale(1.2);
+}
+
+.socialMedia {
+    box-sizing: content-box;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.buttonSocial {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonSocial a {
+    font-size: 20px;
+    color: rgb(14, 36, 8);
+}
+
+.buttonSocial a:hover {
+    transform: scale(1.5);
+    color: rgb(121, 172, 121);
+}
